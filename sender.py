@@ -36,8 +36,8 @@ window.wm_iconbitmap("sos.ico")
 window.title("Savepulse - Send an SOS")
 
 #label and button
-l=Label(window, text="EMERGENCY? Send an SOS! Click Below!",font="Helvetica, 13",fg="#fff").place(x=40,y=10)
-b=Button(window, text="SOS", padx=40, pady=10,bg="#AE0A0A",font=30, command=sendEmail,fg="#fff").place(x=130,y=50)
+l=Label(window, text="EMERGENCY? Send an SOS! Click Below!",font="Helvetica, 13",bg="#0f0f0f",fg="#fff").place(x=40,y=50)
+b=Button(window, text="SOS", padx=40, pady=10,bg="#AE0A0A",font=30, command=sendEmail,fg="#fff").place(x=130,y=90)
 
 #background color
 window.configure(bg="#0f0f0f")
